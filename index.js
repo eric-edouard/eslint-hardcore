@@ -25,6 +25,7 @@ module.exports = {
         'plugin:prettier/recommended',
       ],
       rules: {
+        'export-match-filename': 'error',
         'prettier/prettier': 'error',
         curly: 'error',
         eqeqeq: 'error',
