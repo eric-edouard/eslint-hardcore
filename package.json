@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-leozera",
+  "version": "1.0.9",
+  "description": "ESLint config based in recommended best practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Not today'"
+  },
+  "repository": "https://github.com/leonardofaria/eslint-config-leozera",
+  "author": "Leonardo Faria",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "eslint-plugin-testing-library": "^5.10.3"
+  }
+}
