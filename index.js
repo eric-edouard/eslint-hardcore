@@ -1,4 +1,7 @@
 module.exports = {
+  rules: {
+    'export-match-filename': require('./src/rules/export-match-filename'),
+  },
   configs: {
     recommended: {
       plugins: [
