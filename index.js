@@ -11,6 +11,7 @@ module.exports = {
       ],
       extends: [
         'eslint:recommended',
+        'plugin:eslint-comments/recommended',
         'plugin:import/recommended',
         'plugin:import/typescript',
         'plugin:promise/recommended',
