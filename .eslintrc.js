@@ -1,5 +1,5 @@
-import * as Configs from './index'
+import { configs } from './index'
 
 module.exports = {
-    ...Configs.configs.recommended
+    ...configs.recommended
 };
