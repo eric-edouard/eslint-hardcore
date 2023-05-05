@@ -152,10 +152,7 @@ module.exports = {
             groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object', 'type'],
           },
         ],
-        'local-rules/conditional-rendering': 'warn',
-        'local-rules/disable-font-style': 'error',
-        'local-rules/jsx-memoize': 'warn',
-        'local-rules/analytics-props': 'error',
+
         'max-lines': ['error', { max: 250, skipComments: true, skipBlankLines: true }],
         'max-statements-per-line': [
           'error',
@@ -248,7 +245,6 @@ module.exports = {
             markers: ['/'],
           },
         ],
-        'local-rules/export-match-filename': 'warn',
       },
     },
     react: {
