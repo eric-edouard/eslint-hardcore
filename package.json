@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-hardcore",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Import with sanity.",
   "engines": {
     "node": ">=4"
@@ -8,7 +8,8 @@
   "main": "index.js",
   "files": [
     "LICENSE",
-    "index.js"
+    "index.js",
+    "src/"
   ],
   "scripts": {
     "lint": "eslint src/index.js"
