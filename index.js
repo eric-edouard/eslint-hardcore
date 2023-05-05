@@ -8,6 +8,7 @@ module.exports = {
         'sonarjs',
         'prettier',
         'filenames',
+        '@typescript-eslint',
       ],
       extends: [
         'eslint:recommended',
