@@ -197,22 +197,7 @@ module.exports = {
         'promise/always-return': 'error',
         'promise/catch-or-return': 'error',
         'promise/prefer-await-to-then': 'error',
-        'react/jsx-curly-brace-presence': 'error',
-        'react/display-name': 'off',
-        'react/jsx-handler-names': [
-          'error',
-          {
-            eventHandlerPrefix: 'handle|set|on',
-            eventHandlerPropPrefix: 'on',
-            checkLocalVariables: true,
-            checkInlineFunction: true,
-          },
-        ],
-        'react/jsx-no-bind': 'error',
-        'react/no-multi-comp': ['error', { ignoreStateless: true }],
-        'react/prop-types': 'off',
-        'react/react-in-jsx-scope': 'off',
-        'react/self-closing-comp': 'off',
+
         'sonarjs/cognitive-complexity': 'error',
         'sonarjs/no-all-duplicated-branches': 'error',
         'sonarjs/no-collapsible-if': 'error',
@@ -246,6 +231,24 @@ module.exports = {
       extends: [
         'plugin:react/recommended',
       ],
+      rules: {
+        'react/jsx-curly-brace-presence': 'error',
+        'react/display-name': 'off',
+        'react/jsx-handler-names': [
+          'error',
+          {
+            eventHandlerPrefix: 'handle|set|on',
+            eventHandlerPropPrefix: 'on',
+            checkLocalVariables: true,
+            checkInlineFunction: true,
+          },
+        ],
+        'react/jsx-no-bind': 'error',
+        'react/no-multi-comp': ['error', { ignoreStateless: true }],
+        'react/prop-types': 'off',
+        'react/react-in-jsx-scope': 'off',
+        'react/self-closing-comp': 'off',
+      },
     },
     'react-native': {
       env: {
