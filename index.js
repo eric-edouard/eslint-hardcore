@@ -36,12 +36,6 @@ module.exports = {
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/ban-ts-comment': [
           'error',
-          {
-            'ts-expect-error': true,
-            'ts-ignore': false,
-            'ts-nocheck': false,
-            'ts-check': false,
-          },
         ],
         '@typescript-eslint/no-namespace': [2, { allowDeclarations: true }],
         '@typescript-eslint/no-empty-function': 'error',
