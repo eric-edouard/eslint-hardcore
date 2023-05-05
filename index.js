@@ -89,10 +89,10 @@ module.exports = {
           },
         ],
         '@typescript-eslint/no-explicit-any': [
-          'error',
+          'warn',
           {
-            ignoreRestArgs: false,
-            fixToUnknown: false,
+            ignoreRestArgs: true,
+            fixToUnknown: true,
           },
         ],
         '@typescript-eslint/naming-convention': [
