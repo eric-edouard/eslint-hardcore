@@ -28,7 +28,7 @@ module.exports = {
         'no-var': 'error',
         'no-tabs': 'error',
         'no-empty': 'error',
-        'no-console': 'error',
+        'no-console': 'warn',
         'no-debugger': 'error',
         'sort-imports': 'off', // doesn't work well with 'import/order'
         'quote-props': ['error', 'as-needed'],
@@ -113,6 +113,7 @@ module.exports = {
         'default-param-last': 'error',
         'dot-location': ['error', 'property'],
         'dot-notation': 'error',
+        'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
         'eslint-comments/no-unlimited-disable': 'error',
         'eslint-comments/no-unused-disable': 'error',
         'filenames/no-index': 'error',
