@@ -202,8 +202,6 @@ module.exports = {
         'promise/catch-or-return': 'error',
         'promise/prefer-await-to-then': 'error',
         'react/jsx-curly-brace-presence': 'error',
-        'react-native/no-unused-styles': 'error',
-        'react-native/no-inline-styles': 'error',
         'react/display-name': 'off',
         'react/jsx-handler-names': [
           'error',
@@ -259,6 +257,10 @@ module.exports = {
       },
       plugins: ['hooks', 'react-native'],
       extends: ['@react-native-community', 'plugin:react/recommended'],
+      rules: {
+        'react-native/no-unused-styles': 'error',
+        'react-native/no-inline-styles': 'off',
+      },
     },
   },
 };
