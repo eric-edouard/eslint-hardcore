@@ -1,7 +1,7 @@
 {
   "type": "module",
-  "name": "eslint-config-hardcore",
-  "version": "1.0.9",
+  "name": "eslint-plugin-hardcore",
+  "version": "1.0.0",
   "description": "Lot's of linting",
   "main": "index.js",
   "scripts": {
