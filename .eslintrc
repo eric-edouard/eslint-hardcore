@@ -1,0 +1,14 @@
+{
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaVersion": 2022,
+        "requireConfigFile": false
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:eslint-plugin/recommended"
+    ],
+    "rules": {
+        "eslint-plugin/require-meta-docs-description": "error"
+    }
+}
