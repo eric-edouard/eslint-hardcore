@@ -54,7 +54,7 @@ module.exports = {
         '@typescript-eslint/no-this-alias': 'error',
         '@typescript-eslint/prefer-for-of': 'error',
         '@typescript-eslint/no-useless-constructor': 'error',
-        '@typescript-eslint/no-var-requires': 'error',
+        '@typescript-eslint/no-var-requires': 'off',
         '@typescript-eslint/prefer-as-const': 'error',
         '@typescript-eslint/no-unsafe-call': 'off',
         '@typescript-eslint/no-unsafe-argument': 'off',
