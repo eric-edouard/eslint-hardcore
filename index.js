@@ -260,7 +260,7 @@ module.exports = {
         'react-native/react-native': true,
       },
       plugins: ['hooks', 'react-native'],
-      extends: ['@react-native-community', 'plugin:react/recommended'],
+      extends: ['@react-native-community'],
       rules: {
         'react-native/no-unused-styles': 'error',
         'react-native/no-inline-styles': 'off',
