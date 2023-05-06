@@ -235,6 +235,7 @@ module.exports = {
       plugins: ['hooks'],
       extends: [
         'plugin:react/recommended',
+        'plugin:react-hooks/recommended',
       ],
       rules: {
         'react/jsx-curly-brace-presence': 'error',
@@ -259,7 +260,7 @@ module.exports = {
       env: {
         'react-native/react-native': true,
       },
-      plugins: ['hooks', 'react-native'],
+      plugins: ['react-native'],
       extends: ['@react-native-community'],
       rules: {
         'react-native/no-unused-styles': 'error',
