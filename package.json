@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-hardcore",
-  "version": "1.0.23",
+  "version": "1.0.22",
   "description": "Import with sanity.",
   "engines": {
     "node": ">=4"

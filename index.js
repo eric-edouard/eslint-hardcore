@@ -48,7 +48,7 @@ module.exports = {
         '@typescript-eslint/no-extra-semi': 'error',
         '@typescript-eslint/no-shadow': 'error',
         '@typescript-eslint/no-unnecessary-type-constraint': 'off',
-        '@typescript-eslint/no-non-null-assertion': 'error',
+        '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/require-await': 'error',
         '@typescript-eslint/promise-function-async': 'error',
         '@typescript-eslint/no-this-alias': 'error',
