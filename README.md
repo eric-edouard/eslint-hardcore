@@ -14,9 +14,9 @@ yarn install --dev eslint-plugin-hardcore
 {
   'plugins': ["hardcore"],
   'extends': [
-    'hardcore:recommended', // For any node project
-    'hardcore:react', // if using react
-    'hardcore:react-native', // if using react-native
+    'plugin:hardcore/recommended', // For any node project
+    'plugin:hardcore/react', // if using react
+    'plugin:hardcore/react-native', // if using react-native
   ]
 }
 ```
