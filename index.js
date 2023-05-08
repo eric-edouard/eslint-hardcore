@@ -244,7 +244,7 @@ module.exports = {
           'error',
           {
             eventHandlerPrefix: 'handle|set|on',
-            eventHandlerPropPrefix: 'on',
+            eventHandlerPropPrefix: 'handle|set|on',
             checkLocalVariables: true,
             checkInlineFunction: true,
           },
