@@ -118,7 +118,7 @@ module.exports = {
         'dot-location': ['error', 'property'],
         'dot-notation': 'error',
         'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
-        'eslint-comments/no-unlimited-disable': 'error',
+        'eslint-comments/no-unlimited-disable': 'off',
         'eslint-comments/no-unused-disable': 'error',
         'filenames/no-index': 'error',
         'func-call-spacing': 'off',
